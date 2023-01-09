@@ -106,3 +106,21 @@ nav li {
     color: #757575;
     margin-bottom: 30px;
 }
+
+/* about info contaier style */
+.about-info-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
