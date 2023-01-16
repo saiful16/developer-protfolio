@@ -55,6 +55,7 @@ nav li {
     margin: 0 200px;
     align-items: center;
     background-image: url();
+
 }
 
 .banner-subtitle {
@@ -94,6 +95,7 @@ nav li {
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130PX 160px;
+    margin-bottom: 130px;
 }
 
 .section-title {
@@ -123,4 +125,55 @@ nav li {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* what i do style */
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.what-ido-description {
+    text-align: center;
+    color: #757575;
+    margin: 0 350px;
+    margin-bottom: 50px;
+}
+
+/* skills section desingn */
+.skills-container {
+    display: flex;
+    gap: 24px;
+    margin: 0 230px;
+
+
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-image {
+
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    padding: 0 30px 30px 30px;
+
 }
