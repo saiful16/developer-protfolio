@@ -20,7 +20,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 220px;
+    padding: 50px 220px;
 
 }
 
@@ -147,6 +147,7 @@ nav li {
     display: flex;
     gap: 24px;
     margin: 0 230px;
+    margin-bottom: 130px;
 
 
 }
@@ -158,7 +159,7 @@ nav li {
 }
 
 .skill-image {
-
+    padding: 30px 193px 0 30px;
 
 }
 
@@ -176,4 +177,84 @@ nav li {
     font-size: 16px;
     padding: 0 30px 30px 30px;
 
+}
+
+/* resume section */
+.resume-content {
+    display: flex;
+    gap: 24px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+    margin-bottom: 30px;
+}
+.resume .btn-primary{
+    align-items: center;
+}
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+/* contract section style */
+
+.contract-section{
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    
+
+}
+
+.contract-section .section-title{
+    text-align: left;
+}
+
+.contract-section .section-description{
+    margin-top: 20px;   
+    margin-bottom: 30px;
+}
+
+.contract-section input[type="text"], input[type="email"], textarea{
+    
+    margin-bottom: 20px;
+    height: 64px;
+    border: 0;
+    width: 100%;
+
+}
+textarea{
+width: 100%;
+height: 180px;
+border: 0;
+}
+.input-area{
+    flex-direction: column;
+    align-items: stretch;
 }
